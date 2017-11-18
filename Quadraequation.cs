@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Equation
 {
@@ -39,35 +39,16 @@ namespace Equation
 
         }
 
-        if (Delta > 0)
+        else
 
         {
                 
         X1 = (-B + Math.Sqrt(Delta)) / (2 * A);
         X2 = (-B - Math.Sqrt(Delta)) / (2 * A);
-        System.Console.WriteLine(" Il y'a deux solutions dans R " + X1 + "et" + X2);
 
-        }
-       
-        }
     }
-}        	            
-       
+}
 
-           
-        
+}
 
-                    
-                
-            
-        
-    
-
-
-
-                    
-
-        
-
-
-
+}
